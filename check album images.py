@@ -14,10 +14,6 @@ def main():
 		if os.path.isfile(dirname+"\\cover.png"):
 			continue
 
-		# for filename in enumerate(os.listdir(dirname)): 
-			# filename=filename[1]
-			# if filename is ("cover.jpg","cover.png","folder.jpg","folder.png"):
-				# continue
 		print(dirname)
 
 
